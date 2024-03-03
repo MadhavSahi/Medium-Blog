@@ -15,6 +15,18 @@ const app = new Hono<{
 }>();
 //when using env variables(wrangler.toml), we need to do like this...this is the official way
 
+//main route(just for a nice screen message.)
+app.get("/", (c) => {
+  try {
+    c.status(200);
+    return c.text(
+      "Medium App having Backend in Hono and Database in POSTGRES."
+    );
+  } catch (error: any) {
+    return c.text("Error : " + error.message);
+  }
+});
+
 //user ROUTES
 app.route("/api/v1/user", userRouter);
 
