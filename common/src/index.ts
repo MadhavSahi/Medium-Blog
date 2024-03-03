@@ -2,6 +2,7 @@
 
 import z from "zod";
 
+//these will be used in backend for zod validations and will be deployed on npm
 export const signupInput = z.object({
   email: z.string().email(),
   username: z.string(),
@@ -24,7 +25,10 @@ export const editblogInput = z.object({
   content: z.string(),
   id: z.string(),
 });
+
+
 //type inference
+//these all will be used in frontend code.
 export type SignUpInput = z.infer<typeof signupInput>;
 export type SignInInput = z.infer<typeof signinInput>;
 export type CreateBlogInput = z.infer<typeof createblogInput>;
