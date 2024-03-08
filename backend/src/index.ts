@@ -1,7 +1,8 @@
 import { Hono } from "hono";
 import { userRouter } from "./routes/userRoute";
 import { blogRouter } from "./routes/blogRoute";
-import { verify } from "hono/jwt";
+// import { verify } from "hono/jwt";
+import { cors } from "hono/cors";
 //official steps to generate a client when using Prisma...(in mongoose it came along, but in prsima we need to geenrate alag se)
 
 // const app = new Hono();
@@ -14,6 +15,9 @@ const app = new Hono<{
   };
 }>();
 //when using env variables(wrangler.toml), we need to do like this...this is the official way
+
+//to resolve CORS
+app.use("/*", cors());
 
 //main route(just for a nice screen message.)
 app.get("/", (c) => {

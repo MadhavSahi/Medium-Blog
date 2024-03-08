@@ -2,8 +2,8 @@ compatibility_date = "2023-12-01"
 name = "backend"
 
 [vars]
-# DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMzMwNzI2ZWQtNTM4ZS00ZmI1LWE2NTMtYWQzY2MzNTQ4YTVkIiwidGVuYW50X2lkIjoiMTNkOTFiMjBlNTJmMTk1MDA2ODI3NzYxNjZmNjFhNzdkMzY2ZmEwY2JhYmMxZWNjZmRmZTRlYzU4YTRlYzUyMSIsImludGVybmFsX3NlY3JldCI6IjVhMTViZmY1LWRjODctNDFhOC05YTUxLWY4YjIwYzliODIzNCJ9.J5dSHrPZIgjxyA9dSy9RX8aXbErAZ_yy6mOroAAvnH0"
-DATABASE_URL = ""
+# DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYTg1MzI2NWYtMmZjYS00NWEyLTlmZWQtZjYzMGRhZTNkNGRjIiwidGVuYW50X2lkIjoiYjU0M2ExODRjOGNmNGFlMzc4YmVmMThkM2QxZjljODQ2NzJmZjYwMDZiNDAyM2FjNmQwYTgxOWM4ODQ3YjhjYSIsImludGVybmFsX3NlY3JldCI6Ijc4MjUzNjFkLTZkNTYtNGMwYS1iMmJmLTRmZTQzYTE2YTdiZCJ9.6pgkXD3Njaq7_1ttSoB4Mo9mxkhcNrCa-3KEspZv76I"
+DATABASE_URL =""
 # this means that we can use this variable in clouflare dashboard and write the DATABASE_URL there...like we do in Netlify for ReactJS env variables...here the env variables of hono app using clouflare workers is kept in wrangler.toml file only but used with c.env in index.ts file.
 
 # this is the CONNECTION_POOLING DB_URL.

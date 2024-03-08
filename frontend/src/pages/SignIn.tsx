@@ -1,13 +1,16 @@
-// import React from 'react'
+import Auth from "../components/Auth";
+import QuoteCard from "../components/QuoteCard";
 
-const SignIn = () => {
+const SignUp = () => {
   return (
     <>
-      <div>
-        <p>SignIn</p>
+      <div className="flex flex-row border-black border-2 justify-evenly pt-5 h-full">
+        {/* <p>SignUp</p> */}
+        <Auth type="signin" />
+        <QuoteCard></QuoteCard>
       </div>
     </>
   );
 };
 
-export default SignIn;
+export default SignUp;
