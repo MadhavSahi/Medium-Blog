@@ -4,7 +4,7 @@ Welcome to the frontend of the Medium Clone project! This React-based applicatio
 
 ## 👉 Live Deployment
 
-The frontend is deployed live and accessible [here](https://madhavsahi-medium-hono-react-ts.netlify.app/). Feel free to explore the application and experience the Medium-like interface.
+The frontend is deployed live and accessible [Medium-FullStack-ReactJS](https://madhavsahi-medium-hono-react-ts.netlify.app/). Feel free to explore the application and experience the Medium-like interface.
 
 ## 📌 Technologies Used
 
