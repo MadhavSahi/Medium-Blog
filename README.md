@@ -1,14 +1,14 @@
-# Medium Clone Full Stack Project 🚀
+# 🚀 Medium Clone Full Stack Project 
 
 Welcome to the Medium Clone Full Stack Project! This project replicates core features of the Medium platform, allowing users to sign in, sign up, publish blog posts, and explore a curated list of blogs. The project is divided into two main components: the frontend and backend.
 
-## Live Deployment 👉
+## 👉 Live Deployment 
 
-- **Frontend:** The frontend is live and accessible at [https://madhavsahi-medium-hono-react-ts.netlify.app/](https://madhavsahi-medium-hono-react-ts.netlify.app/). Explore the application to experience the Medium-like interface.
+- **Frontend:** The frontend is live and accessible at [Medium Full Stack App](https://madhavsahi-medium-hono-react-ts.netlify.app/ "Frontend Link"). Explore the application to experience the Medium-like interface.
 
-- **Backend:** The backend is deployed on [Cloudflare Workers](https://backend.medium-hono-madhavsahi.workers.dev "Backend link"), providing serverless architecture for scalability and performance.
+- **Backend:** The backend is deployed on [Medium-Backend_HONO-POSTGRES](https://backend.medium-hono-madhavsahi.workers.dev "Backend link"), providing serverless architecture for scalability and performance.
 
-## Tech Stack 💻
+## 💻 Tech Stack 
 
 ### Frontend
 
@@ -24,7 +24,7 @@ Welcome to the Medium Clone Full Stack Project! This project replicates core fea
 - **JavaScript (Node.js):** Language for building serverless functions.
 - **JWT (JSON Web Tokens):** Secure authentication between frontend and backend.
 
-## Project Structure 📁
+## 📁 Project Structure 
 
 ### Frontend
 
@@ -50,7 +50,7 @@ The backend consists of serverless functions deployed on Cloudflare Workers:
     - **`utils/`:** Utility functions.
     - **`index.js`:** Entry point for the Cloudflare Worker script.
 
-## Backend Setup 🔧
+## 🔧 Backend Setup 
 
 1. **Prerequisites:**
 
@@ -74,7 +74,7 @@ The backend consists of serverless functions deployed on Cloudflare Workers:
    - Navigate to the `workers/` directory.
    - Run `wrangler publish` to deploy the backend to Cloudflare Workers.
 
-## Frontend Setup 🔧
+## 🔧 Frontend Setup 
 
 1. **Prerequisites:**
 
@@ -85,7 +85,7 @@ The backend consists of serverless functions deployed on Cloudflare Workers:
    - Install dependencies: `npm install`.
    - Start the development server: `npm run dev`.
 
-## Building and Deployment 🚀
+## 🚀 Building and Deployment 
 
 1. **Frontend:**
 

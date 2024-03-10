@@ -6,7 +6,7 @@ Welcome to the frontend of the Medium Clone project! This React-based applicatio
 
 The frontend is deployed live and accessible [here](https://madhavsahi-medium-hono-react-ts.netlify.app/). Feel free to explore the application and experience the Medium-like interface.
 
-## 📌 Tech Stack
+## 📌 Technologies Used
 
 - **React:** Utilized for its declarative and component-based approach, making UI development more efficient and modular.
 
