@@ -15,7 +15,7 @@ Welcome to the Medium Clone Full Stack Project! This project replicates core fea
 - **React:** Declarative and component-based UI development.
 - **Vite:** Fast build times and an optimized development server.
 - **Tailwind CSS:** Utility-first CSS framework for a consistent design.
-- **Axios:** Handling HTTP requests for data communication.
+- **Axios:** Handling HTTP requests for better data communication.
 - **React Router:** Dynamic routing for a seamless user experience.
 
 ### Backend
