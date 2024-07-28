@@ -14,7 +14,7 @@ const useSingleBlog = ({id}:{id:string}) => {
   const [singleblog, setSingleBlog] = useState<BlogCardProps>();
   const fetchSingleBlog = async () => {
     try {
-      console.log("heyy");
+      //console.log("heyy");
 
       const result = await axios.get(`${BACKEND_URL}/api/v1/blog/${id}`, {
         headers: {
