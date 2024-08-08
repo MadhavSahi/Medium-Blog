@@ -28,11 +28,11 @@ const BlogId = () => {
     );
   }
   return (
-    <>
+    
       <div>
         <SingleBlog singleblog={singleblog} />
       </div>
-    </>
+    
   );
 };
 
